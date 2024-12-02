@@ -1763,30 +1763,29 @@ concept_nephropathy
 	<- definition;;
 	*);;
  *);;
-
 concept_subacute
 => nrel_main_idtf:
-	[subacute]
-	(* <- lang_en;; *);
+ [субакутный]
+ (* <- lang_ru;; *);
 => nrel_main_idtf:
-	[подострый]
-	(* <- lang_ru;; *);
+ [subacute]
+ (* <- lang_en;; *);
 <- rrel_key_sc_element:
 ...
  (*
  => nrel_sc_text_translation:
-   def_subacute
-   (*
-   => nrel_main_idtf:
-      [Опр. (Подострый)]
-      (* <- lang_ru;; *);;
-   -> [Подострый - это термин, который используется для описания состояний или заболеваний, которые находятся между острым и хроническим, проявляющиеся в течение более длительного времени, чем острые, но менее длительного, чем хронические.]
-      (* <- lang_ru;; *);;
-   -> [Subacute is a term used to describe conditions or diseases that are between acute and chronic, manifesting over a longer period than acute but shorter than chronic.]
-      (* <- lang_en;; *);;
-   <- definition;;
-     *);;
-   *);;
+	def_subacute
+	(*
+	=> nrel_main_idtf:
+		[Опр. (субакутный)]
+		(* <- lang_ru;; *);;
+	-> [Характеризующийся более медленным началом и менее выраженной симптоматикой, чем острый процесс, но более интенсивным, чем хронический, обычно продолжается от нескольких дней до нескольких недель.]
+		(* <- lang_ru;; *);;
+	-> [Characterized by a slower onset and less pronounced symptoms than an acute process but more intense than chronic, typically lasting from several days to several weeks.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
+ *);;
 
 concept_bad_environmental_zone
 => nrel_main_idtf:
@@ -3047,8 +3046,6 @@ concept_psoriasis
 	<- definition;;
 	*);;
  *);;
-
-
 concept_staphylococcus
 => nrel_main_idtf:
  [стафилококк]
@@ -4236,6 +4233,30 @@ concept_pain_in_lumbar_region
 	-> [Неприятные ощущения или болевые ощущения, локализующиеся в области поясницы, чаще всего вызванные различными причинами, такими как мышечные напряжения, травмы, остеохондроз, воспалительные процессы или другие патологии, и могут сопровождаться ограничением движений или другими симптомами.]
 		(* <- lang_ru;; *);;
 	-> [Unpleasant sensations or pain localized in the lumbar area, typically caused by various reasons such as muscle tension, injuries, osteochondrosis, inflammatory processes, or other pathologies, and may be accompanied by limited mobility or other symptoms.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
+ *);;
+
+concept_diseases
+=> nrel_main_idtf:
+ [заболевания]
+ (* <- lang_ru;; *);
+=> nrel_main_idtf:
+ [diseases]
+ (* <- lang_en;; *);
+<- rrel_key_sc_element:
+...
+ (*
+ => nrel_sc_text_translation:
+	def_diseases
+	(*
+	=> nrel_main_idtf:
+		[Опр. (заболевания)]
+		(* <- lang_ru;; *);;
+	-> [Патологические состояния или нарушения здоровья организма, которые характеризуются нарушением нормальных физиологических функций и процессов, могут иметь различную этиологию, симптоматику, течение и последствия, и классифицируются по различным признакам.]
+		(* <- lang_ru;; *);;
+	-> [Pathological conditions or disruptions of health in the body characterized by the disturbance of normal physiological functions and processes, which may have various etiologies, symptoms, courses, and consequences, and are classified according to various criteria.]
 		(* <- lang_en;; *);;
 	<- definition;;
 	*);;
@@ -8305,26 +8326,26 @@ concept_frequent
 
 concept_heavy
 => nrel_main_idtf:
-  [heavy]
-  (* <- lang_en;; *);
+ [тяжелый]
+ (* <- lang_ru;; *);
 => nrel_main_idtf:
-  [тяжелый]
-  (* <- lang_ru;; *);
+ [heavy]
+ (* <- lang_en;; *);
 <- rrel_key_sc_element:
 ...
  (*
  => nrel_sc_text_translation:
-   def_heavy
-   (*
-   => nrel_main_idtf:
-      [Опр. (тяжелый)]
-      (* <- lang_ru;; *);;
-   -> [Тяжелый - это описание состояния или болезни, характеризующейся значительной степенью тяжести, что часто требует интенсивного лечения и может представлять серьезную угрозу для здоровья или жизни пациента.]
-      (* <- lang_ru;; *);;
-   -> [Heavy describes a condition or illness characterized by a significant degree of severity, often requiring intensive treatment and posing a serious threat to the patient's health or life.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
+	def_heavy
+	(*
+	=> nrel_main_idtf:
+		[Опр. (тяжелый)]
+		(* <- lang_ru;; *);;
+	-> [Обладающий большим весом или труднопереносимый.]
+		(* <- lang_ru;; *);;
+	-> [Having great weight or difficult to bear.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
  *);;
 
 concept_helicobacter_pylori
@@ -9913,26 +9934,26 @@ concept_intestine
 
 concept_primary
 => nrel_main_idtf:
-	[первичный]
-	(* <- lang_ru;; *);
+ [первичный]
+ (* <- lang_ru;; *);
 => nrel_main_idtf:
-	[primary]
-	(* <- lang_en;; *);
+ [primary]
+ (* <- lang_en;; *);
 <- rrel_key_sc_element:
 ...
-(*
+ (*
  => nrel_sc_text_translation:
-   def_primary
-   (*
-   => nrel_main_idtf:
-      [Опр. (первичный)]
-      (* <- lang_ru;; *);;
-   -> [Относящийся к основному или первичному лечению или причине заболевания.]
-      (* <- lang_ru;; *);;
-   -> [Relating to the main or initial treatment or cause of a disease.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
+	def_primary
+	(*
+	=> nrel_main_idtf:
+		[Опр. (первичный)]
+		(* <- lang_ru;; *);;
+	-> [Описывает что-то основное, начальное или не происходящее в результате вторичных изменений.]
+		(* <- lang_ru;; *);;
+	-> [Describes something fundamental, initial, or not occurring as a result of secondary changes.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
  *);;
 
 concept_smell
@@ -10170,6 +10191,30 @@ concept_calculous
 	-> [Относящийся к камням или образованию камней в органах, например, в желчном пузыре или почках.]
 		(* <- lang_ru;; *);;
 	-> [Pertaining to stones or the formation of stones in organs, such as the gallbladder or kidneys.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
+ *);;
+
+concept_allergic_colitis
+=> nrel_main_idtf:
+ [аллергический колит]
+ (* <- lang_ru;; *);
+=> nrel_main_idtf:
+ [allergic colitis]
+ (* <- lang_en;; *);
+<- rrel_key_sc_element:
+...
+ (*
+ => nrel_sc_text_translation:
+	def_allergic_colitis
+	(*
+	=> nrel_main_idtf:
+		[Опр. (аллергический колит)]
+		(* <- lang_ru;; *);;
+	-> [Воспаление толстого кишечника, вызванное аллергической реакцией, часто связанное с пищевой аллергией.]
+		(* <- lang_ru;; *);;
+	-> [Inflammation of the colon caused by an allergic reaction, often associated with food allergies.]
 		(* <- lang_en;; *);;
 	<- definition;;
 	*);;
@@ -11280,15 +11325,6 @@ concept_dysbacteriosis
  [dysbacteriosis]
  (* <- lang_en;; *);;
 
-concept_allergic_colitis
-=> nrel_main_idtf:
-	[аллергический колит]
-	(* <- lang_ru;; *);
-=> nrel_main_idtf:
-	[allergic colitis]
-	(* <- lang_en;; *);;
-
-
 concept_esophagitis
 => nrel_main_idtf:
  [эзофагит]
@@ -11423,7 +11459,29 @@ concept_horniness
 	<- definition;;
 	*);;
  *);;
-
+concept_sinusitis
+=> nrel_main_idtf:
+	[синусит]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[sinusitis]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+...
+ (*
+ => nrel_sc_text_translation:
+	def_sinusitis
+	(*
+	=> nrel_main_idtf:
+		[Опр. (синусит)]
+		(* <- lang_ru;; *);;
+	-> [Воспаление пазух носа, сопровождающееся заложенностью носа, болью и выделениями.]
+		(* <- lang_ru;; *);;
+	-> [Inflammation of the sinuses, accompanied by nasal congestion, pain, and discharge.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
+ *);;
 concept_uremia
 => nrel_main_idtf:
 	[уремия]
@@ -12631,30 +12689,6 @@ concept_febrile_state
 		(* <- lang_en;; *);;
 	<- definition;;
 	*);;
- *);;
-
-inflammation_of_mucous_membranes
-=> nrel_main_idtf:
- [воспаление слизистых оболочек]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [inflammation of mucous membranes]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_inflammation_of_mucous_membranes
-   (*
-   => nrel_main_idtf:
-      [Опр. (воспаление слизистых оболочек)]
-      (* <- lang_ru;; *);;
-   -> [Воспалительный процесс, затрагивающий слизистые оболочки органов, характеризующийся покраснением, отеком и повышенной секрецией слизи, вызванный инфекцией, аллергией или раздражением.]
-      (* <- lang_ru;; *);;
-   -> [An inflammatory process affecting the mucous membranes of organs, characterized by redness, swelling, and increased mucus secretion, caused by infection, allergy, or irritation.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
  *);;
 
 concept_inflammation_mucouse_membrane_small_intestine
@@ -13931,6 +13965,30 @@ concept_organic_substances
 	-> [Химические соединения, содержащие углерод, важные для жизнедеятельности живых организмов.]
 		(* <- lang_ru;; *);;
 	-> [Chemical compounds containing carbon, essential for the life processes of living organisms.]
+		(* <- lang_en;; *);;
+	<- definition;;
+	*);;
+ *);;
+
+concept_asymptomatic
+=> nrel_main_idtf:
+	[бессимптомный]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[asymptomatic]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+...
+ (*
+ => nrel_sc_text_translation:
+	def_asymptomatic
+	(*
+	=> nrel_main_idtf:
+		[Опр. (бессимптомный)]
+		(* <- lang_ru;; *);;
+	-> [Состояние или болезнь, протекающая без явных клинических симптомов.]
+		(* <- lang_ru;; *);;
+	-> [A condition or disease that occurs without clear clinical symptoms.]
 		(* <- lang_en;; *);;
 	<- definition;;
 	*);;
@@ -15923,224 +15981,6 @@ concept_by_localization_of_stones
    -> [Метод классификации желчных камней, основанный на их местоположении в желчевыводящих путях, что позволяет определить характеристики и возможные осложнения.]
       (* <- lang_ru;; *);;
    -> [A method of classifying gallstones based on their location in the biliary tract, which helps determine their characteristics and potential complications.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
- 
-concept_processes_of_disruption_of_the_normal_functioning_of_the_body
-=> nrel_main_idtf:
- [процессы нарушения нормального функционирования организма]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [processes of disruption of the normal functioning of the body]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_processes_of_disruption_of_the_normal_functioning_of_the_body
-   (*
-   => nrel_main_idtf:
-      [Опр. (процессы нарушения нормального функционирования организма)]
-      (* <- lang_ru;; *);;
-   -> [Процессы, которые приводят к отклонению от нормальной работы организма, включая нарушения в работе систем и органов, вызванные различными патологическими факторами.]
-      (* <- lang_ru;; *);;
-   -> [Processes that lead to deviations from the normal functioning of the body, including disruptions in the systems and organs' operations, caused by various pathological factors.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
- inflammation_of_neuralgic_amyotrophy
-=> nrel_main_idtf:
- [воспаление невралгической амиотрофии]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [inflammation of neuralgic amyotrophy]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_inflammation_of_neuralgic_amyotrophy
-   (*
-   => nrel_main_idtf:
-      [Опр. (воспаление невралгической амиотрофии)]
-      (* <- lang_ru;; *);;
-   -> [Воспалительное заболевание, поражающее нервы и мышцы плечевого пояса, характеризующееся внезапной болью и мышечной слабостью.]
-      (* <- lang_ru;; *);;
-   -> [An inflammatory disease affecting the nerves and muscles of the shoulder girdle, characterized by sudden pain and muscle weakness.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
-
- inflammation_of_rheumatoid_arthritis
-=> nrel_main_idtf:
- [воспаление ревматоидного артрита]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [inflammation of rheumatoid arthritis]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_inflammation_of_rheumatoid_arthritis
-   (*
-   => nrel_main_idtf:
-      [Опр. (воспаление ревматоидного артрита)]
-      (* <- lang_ru;; *);;
-   -> [Хроническое воспалительное заболевание, поражающее суставы и вызывающее боль, отек и возможную деформацию суставов.]
-      (* <- lang_ru;; *);;
-   -> [A chronic inflammatory disease affecting the joints, causing pain, swelling, and potential joint deformity.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
-concept_inflammatory_disease_of_muscle_tissues
-=> nrel_main_idtf:
- [воспалительное заболевание мышечных тканей]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [inflammatory disease of muscle tissues]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_inflammatory_disease_of_muscle_tissues
-   (*
-   => nrel_main_idtf:
-      [Опр. (воспалительное заболевание мышечных тканей)]
-      (* <- lang_ru;; *);;
-   -> [Заболевание, характеризующееся воспалением мышечных тканей, что приводит к боли, отеку и нарушению функции мышц.]
-      (* <- lang_ru;; *);;
-   -> [A disease characterized by inflammation of muscle tissues, leading to pain, swelling, and impaired muscle function.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
- inflammation_of_miozit
-=> nrel_main_idtf:
- [воспаление миозита]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [inflammation of myositis]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_inflammation_of_miozit
-   (*
-   => nrel_main_idtf:
-      [Опр. (воспаление миозита)]
-      (* <- lang_ru;; *);;
-   -> [Воспалительное заболевание скелетных мышц, вызывающее слабость, отек и болезненность мышц, часто связанное с инфекцией или аутоиммунными процессами.]
-      (* <- lang_ru;; *);;
-   -> [An inflammatory disease of skeletal muscles, causing weakness, swelling, and muscle tenderness, often associated with infection or autoimmune processes.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
-concept_vehicle_drivers
-=> nrel_main_idtf:
- [водители транспортных средств]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [vehicle drivers]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_vehicle_drivers
-   (*
-   => nrel_main_idtf:
-      [Опр. (водители транспортных средств)]
-      (* <- lang_ru;; *);;
-   -> [Люди, управляющие различными транспортными средствами, такими как автомобили, автобусы, грузовики и мотоциклы.]
-      (* <- lang_ru;; *);;
-   -> [People who operate various types of vehicles, such as cars, buses, trucks, and motorcycles.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
-concept_accountants
-=> nrel_main_idtf:
- [бухгалтеры]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [accountants]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_accountants
-   (*
-   => nrel_main_idtf:
-      [Опр. (бухгалтеры)]
-      (* <- lang_ru;; *);;
-   -> [Профессионалы, занимающиеся ведением учета финансовой деятельности организаций, составлением отчетов и контролем за соблюдением финансовых норм.]
-      (* <- lang_ru;; *);;
-   -> [Professionals who handle the accounting of financial activities of organizations, prepare reports, and ensure compliance with financial regulations.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
-concept_musicians
-=> nrel_main_idtf:
- [музыканты]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [musicians]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_musicians
-   (*
-   => nrel_main_idtf:
-      [Опр. (музыканты)]
-      (* <- lang_ru;; *);;
-   -> [Люди, профессионально занимающиеся созданием, исполнением или записью музыки с использованием различных музыкальных инструментов или голоса.]
-      (* <- lang_ru;; *);;
-   -> [People who professionally engage in creating, performing, or recording music using various musical instruments or their voice.]
-      (* <- lang_en;; *);;
-   <- definition;;
-   *);;
- *);;
-
-concept_programmers
-=> nrel_main_idtf:
- [программисты]
- (* <- lang_ru;; *);
-=> nrel_main_idtf:
- [programmers]
- (* <- lang_en;; *);
-<- rrel_key_sc_element:
-...
- (*
- => nrel_sc_text_translation:
-   def_programmers
-   (*
-   => nrel_main_idtf:
-      [Опр. (программисты)]
-      (* <- lang_ru;; *);;
-   -> [Специалисты, занимающиеся разработкой, написанием и тестированием программного обеспечения, использующие различные языки программирования.]
-      (* <- lang_ru;; *);;
-   -> [Specialists who develop, write, and test software using various programming languages.]
       (* <- lang_en;; *);;
    <- definition;;
    *);;
